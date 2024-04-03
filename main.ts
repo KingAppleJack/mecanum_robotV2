@@ -88,7 +88,7 @@ namespace mecanumRobot {
         D15 = 15
     }
 
-    const PCA9685_ADDRESS = 0x47;   //device address
+    const PCA9685_ADDRESS = 0x30;   //device address
     const MODE1 = 0x00;
     let initI2C = false;
     let _i2cError = 0;
